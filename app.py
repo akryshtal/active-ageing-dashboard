@@ -15,6 +15,17 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Set theme configuration
+st.markdown("""
+    <style>
+    :root {
+        --primary-color: #e5004d;
+        --secondary-background-color: #e0e4d7;
+        --text-color: #1d1d1d;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # Add custom CSS for better dropdown styling
 st.markdown("""
     <style>
